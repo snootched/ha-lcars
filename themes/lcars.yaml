@@ -1677,3 +1677,64 @@ LCARS Lower Decks II:
   error-color: var(--lcars-dark-red)
 # Paste your themes here |
 #                        V
+LCARS Modern Custom Sidebar-Layout:
+  card-mod-theme: LCARS Modern Custom Sidebar-Layout
+  card-mod-view-yaml: |
+    hui-sidebar-view:
+      $: |
+        .container div#sidebar {
+          min-width: 500px;
+          width: -webkit-fill-available;
+        }
+  # Custom colors
+  lcars-modern-light-gray: "#9996BA"
+  <<: *lcars-colors
+  <<: *base
+  <<: *card-mod-css
+  # Primary colors
+  lcars-ui-primary: var(--lcars-violet-creme)
+  lcars-ui-secondary: var(--lcars-sky)
+  lcars-ui-tertiary: var(--lcars-gold)
+  # Header colors
+  lcars-ui-app-header-background-color: "#272727"
+  lcars-ui-app-header-text-color: var(--lcars-c72)
+  # Card colors
+  lcars-card-top-color: var(--lcars-gold)
+  lcars-card-mid-left-color: var(--lcars-modern-light-gray)
+  lcars-card-button: var(--lcars-gray)
+  lcars-card-bottom-color: var(--lcars-sky)
+  # Misc
+  success-color: var(--lcars-green)
+  warning-color: var(--lcars-sunflower)
+  error-color: var(--lcars-red)
+# Fixes for text boxes
+  code-editor-background-color: black
+  mdc-text-field-fill-editor: black
+
+  
+LCARS Modern Custom 1:
+  card-mod-theme: LCARS Modern Custom 1
+  # Custom colors
+  lcars-modern-light-gray: "#9996BA"
+  <<: *lcars-colors
+  <<: *base
+  <<: *card-mod-css
+  # Primary colors
+  lcars-ui-primary: var(--lcars-violet-creme)
+  lcars-ui-secondary: var(--lcars-sky)
+  lcars-ui-tertiary: var(--lcars-gold)
+  # Header colors
+  lcars-ui-app-header-background-color: "#272727"
+  lcars-ui-app-header-text-color: var(--lcars-c72)
+  # Card colors
+  lcars-card-top-color: var(--lcars-gold)
+  lcars-card-mid-left-color: var(--lcars-modern-light-gray)
+  lcars-card-button: var(--lcars-gray)
+  lcars-card-bottom-color: var(--lcars-sky)
+  # Misc
+  success-color: var(--lcars-green)
+  warning-color: var(--lcars-sunflower)
+  error-color: var(--lcars-red)
+  # Fixes for text boxes
+  code-editor-background-color: black
+  mdc-text-field-fill-editor: black
